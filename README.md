@@ -23,6 +23,8 @@ The FFmpeg.framework is just an wrapper of ffmpeg libs:
 Please refer to: https://github.com/xiewei-wayne/ffmpeg-ios-compile
 
 4) How to compile FFmpeg.framework:
+    Set FFmpeg, Simulator as active scheme.
+
     Debug: Command + B, or Xcode - Product -> Build For -> Testing
     Release: Xcode - Product -> Build For -> Profiling
 
