@@ -4,14 +4,12 @@ libffmpeg
 iOS FFmpeg wrapper for ffmpeg v1.0
 
 
-1) About dolby technologies
+1) Dolby technologies needs license, DO NOT use dolby tech in your iOS app if you do not have a dolby license.
 
-If you want to submit your app without a dolby license, please remove the following tech from your ffmpeg lib.
-
+Remove the following tech from your ffmpeg v1.0 libs:
 - Dolby Digital (AC3)
 - Dolby Digital Plus (E-AC3)
 - Dolby TrueHD (MLP)
-
 
 2) You can compile your own ffmpeg lib, and replace the FFmpeg.framework from ffsdk.com
 The FFmpeg.framework is just an wrapper of ffmpeg libs:
@@ -22,11 +20,11 @@ The FFmpeg.framework is just an wrapper of ffmpeg libs:
     libswscale.a
 
 3) How to compile ffmpeg libs for iOS?
-
 Please refer to: https://github.com/xiewei-wayne/ffmpeg-ios-compile
 
-4) Enjoy yourself :)
-
+4) How to compile FFmpeg.framework:
+Debug: Command + B, or Xcode - Product -> Build For -> Testing
+Release: Xcode - Product -> Build For -> Profiling
 
 xiewei.max@gmail.com
 
