@@ -1,4 +1,4 @@
-libffmpeg
+FFmpeg.framework / libffmpeg
 =========
 
 iOS FFmpeg wrapper for ffmpeg v1.0
