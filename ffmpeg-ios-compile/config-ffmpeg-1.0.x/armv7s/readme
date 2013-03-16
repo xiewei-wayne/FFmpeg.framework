@@ -1,0 +1,10 @@
+
+Ref:
+http://www.galloway.me.uk/2012/09/hacking-up-an-armv7s-library/ 
+
+1. copy source to .c
+2. compile the .c
+clang -o armv7sconvert armv7sconvert.c
+3. write a script
+4. armv7sconvert.sh libUAirship-1.2.1.a
+
